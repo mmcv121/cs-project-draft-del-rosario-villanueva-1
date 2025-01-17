@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  background-image: url('https://cdn.glitch.global/dad2ba6e-3757-401a-b095-6ab6dc283bc1/_%20(50).jpeg?v=1734968826504');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+
+header {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+.header {
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://cdn.glitch.global/dad2ba6e-3757-401a-b095-6ab6dc283bc1/_%20(51).jpeg?v=1734968990142');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.header h1 {
+  margin-top: 30px;
+  opacity: 1;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* style for the navigation bar */
+nav {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-page {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-page ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-page ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-page ul li::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-page ul li:hover::after {
+  width: 100%;
+}
+
+/* note */
+.note-container {
+  max-width: 600px;
+  text-align: center;
+  transform: translate(55%,10%);
+}
+
+.note-content {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.icons .fa-brands {
+  margin: 0 3px;
+  cursor: pointer;
+  padding: 3px 0;
+}
